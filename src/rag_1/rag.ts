@@ -17,11 +17,11 @@ dotenv.config();
 
 const embeddings = new OllamaEmbeddings({
     model: "all-minilm", // 
-    baseUrl: "http://admin.huscor.tech:11434", // 
+    baseUrl: "", // 
 });
 
 const vectorStore = await QdrantVectorStore.fromExistingCollection(embeddings, {
-    url: "http://mgccgg408osogokswgo404k4.huscor.tech:6333",
+    url: "",
     collectionName: "lyngo-app"
 });
 

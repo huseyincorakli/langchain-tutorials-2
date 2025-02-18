@@ -8,7 +8,6 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 const agent = async () => {
-    //tavily : bir arama aracı
     const agentTools = [new TavilySearchResults({ maxResults: 3,
         callbacks: [{
             handleToolStart: async (tool) => {

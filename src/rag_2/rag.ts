@@ -19,7 +19,7 @@ const rag2 = async () => {
     try {
         const embeddings = new OllamaEmbeddings({
             model: "all-minilm",
-            baseUrl: "http://admin.huscor.tech:11434",
+            baseUrl: "url",
         });
 
         

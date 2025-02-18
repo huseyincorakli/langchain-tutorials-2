@@ -15,7 +15,6 @@ const  chatbot = async()=>{
         language: "Turkish"
     };
     
-    // İkinci mesaj (dil belirtmeye gerek yok, hatırlanıyor)
     const input2 = {
         messages: [
             {
